@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "474093928349",
+    "project_id": "recipely-dc527",
+    "storage_bucket": "recipely-dc527.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474093928349:android:5dd5f5501e6b5ef8f67974",
+        "android_client_info": {
+          "package_name": "recipelyApp.project.recipely_app_v1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474093928349-4jhmd569q1hafsqiot7je9lemobnmtq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8D1pq9PCxuZWYRZOPRzsBnYpKpeZWn8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474093928349-4jhmd569q1hafsqiot7je9lemobnmtq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

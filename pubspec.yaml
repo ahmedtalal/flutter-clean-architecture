@@ -1,0 +1,65 @@
+name: recipely_app_v1
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+  email_auth: ^1.0.0
+  top_snackbar_flutter: ^1.0.2
+  cupertino_icons: ^1.0.2
+  firebase_core: ^1.12.0
+  firebase_auth: ^3.3.7
+  cloud_firestore: ^3.1.10
+  firebase_messaging: ^11.2.6
+  firebase_storage: ^10.2.9
+  flutter_native_splash: ^1.3.2
+  flutter_svg: ^1.0.3
+  get_storage: ^2.0.3
+  google_sign_in: ^5.2.3
+  flutter_facebook_auth: ^4.1.1
+  image_picker: ^0.8.4+9
+  uuid: ^3.0.5
+  flutter_bloc: ^8.0.1
+  shared_preferences:
+  provider:
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/splash.png
+    - assets/logo.png
+    - assets/loading.gif
+    - assets/lang/
+
+  fonts:
+    - family: Sofia Pro
+      fonts:
+        - asset: assets/fonts/sofia/Sofia_Pro_Bold.ttf
+        - weight: 700
+        - asset: assets/fonts/sofia/Sofia_Pro_SemiBold.ttf
+        - weight: 600
+        - asset: assets/fonts/sofia/Sofia_Pro_Medium.ttf
+        - weight: 500
+        - asset: assets/fonts/sofia/Sofia_Pro_Regular.ttf
+        - weight: 400
+    - family: Satisfy
+      fonts:
+        - asset: assets/fonts/satisfy/Satisfy-Regular.ttf
+        - weight: 400
